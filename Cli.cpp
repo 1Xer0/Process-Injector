@@ -36,7 +36,7 @@ class Process {
     //  if that process failed to execute 
     if (!Process)
     {
-        std::cout << "[-] failed to make the process" << "\n" << GetLastError() << std::endl;
+        std::cerr << "[-] failed to make the process" << "\n" << GetLastError() << std::endl;
     }
     // if the process is successed to create
     else {
